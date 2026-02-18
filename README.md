@@ -1,8 +1,7 @@
 # filter_pLDDT
 
 ** Removes residues from AlphaFold PDB structures where pLDDT (stored in B-factor column)
-  is below the specified cutoff.
-**
+  is below the specified cutoff.**
 Install: " g++ -O3 -march=native -flto -fopenmp filter_plddt.cpp -o filter_plddt"
     Requires OPENMP
 
